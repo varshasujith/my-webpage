@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&family=Montserrat:wght@600&display=swap");
+
+body {
+  background: linear-gradient(to right, #ffebf0, #fff0f5); /* Light pink gradient background */
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #5c2a7b; /* Soft purple text color */
+}
+
+.main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-size: 3em;
+  color: #ff1493; /* Hot pink */
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif; /* Bolder font for the title */
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card h2 {
+  color: #ff1493; /* Hot pink */
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif; /* Bolder font for headings */
+}
+
+.card p, .card ul {
+  font-size: 1em;
+  color: #5c2a7b; /* Dark purple */
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card ul li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #ff1493; /* Hot pink */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #d147a3; /* Darker hot pink */
+  text-decoration: underline;
+}
+
+button {
+  background: linear-gradient(to right, #ff66b2, #d147a3); /* Pink gradient button */
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(to right, #d147a3, #ff66b2);
+  transform: scale(1.05);
+}
